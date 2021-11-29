@@ -43,9 +43,5 @@ cntstrck.addEventListener("click", () => {
 
 const olderProjects = document.querySelector("#one");
 olderProjects.addEventListener("click", () => {
-  window.open(
-    "./oldies_projects/AnjaFerjancic_portfolio.pdf",
-    "_blank",
-    "noopener noreferrer"
-  );
+  window.open("./AnjaFerjancic_portfolio.pdf", "_blank", "noopener noreferrer");
 });
