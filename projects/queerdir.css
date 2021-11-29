@@ -37,9 +37,9 @@
     border-color: black;
     border: 5px solid;
     height: 90%;
-    width: 70%;
+    width: 80%;
     padding: 3rem;
-    margin: 50px 200px;
+    margin: 50px auto;
     font-family: "Zilla Slab", "Space Mono", "sans-serif";
   }
 
@@ -86,14 +86,16 @@
     margin: 20px;
   }
   .qd-image-1 {
-    width: 550px;
-    height: 400px;
+    text-align: center;
+    width: 45%;
+    height: 300px;
     border: #ffc401 solid;
     border-radius: 16px;
     margin: 20px;
   }
   .qd-image {
-    width: 1200px;
+    text-align: center;
+    width: 95%;
     border: #ffc401 solid;
     border-radius: 16px;
     margin: 10px;
@@ -103,6 +105,12 @@
     border: #ffc401 solid;
     border-radius: 16px;
     margin: 20px;
+  }
+  .wireframes {
+    display: flex;
+    position: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -132,9 +140,9 @@
     border-color: black;
     border: 5px solid;
     height: 80%;
-    width: 70%;
+    width: 80%;
     padding: 3rem;
-    margin: 50px 50px;
+    margin: 50px auto;
     font-family: "Zilla Slab", "Space Mono", "sans-serif";
   }
 
@@ -181,7 +189,8 @@
     margin: 20px;
   }
   .qd-image {
-    width: 300px;
+    text-align: center;
+    width: 95%;
     border: #ffc401 solid;
     border-radius: 16px;
     margin: 20px;
@@ -192,9 +201,14 @@
     border-radius: 16px;
     margin: 20px;
   }
+  .wireframes {
+    display: flex;
+    position: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .qd-image-1 {
-    width: 300px;
-    height: 200px;
+    width: 45%;
     border: #ffc401 solid;
     border-radius: 16px;
     margin: 20px;
