@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: GapSansBold;
+  src: url(./fonts/GapSansBold.ttf);
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background: linear-gradient(
+      -25deg,
+      #ffc401,
+      #ffc401,
+      #6161e7,
+      #7c7cfa,
+      #7c7cfa,
+      #7c7cfa,
+      #7c7cfa
+    );
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10rem;
+    left: 20rem;
+  }
+  .navbar__link {
+    color: white;
+    font-family: "Press Start 2P", "Turret Road", "GapSansBold";
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    text-decoration: none;
+  }
+
+  .navbar__link:hover {
+    color: #ffc401;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  body {
+    background: linear-gradient(
+      -25deg,
+      #ffc401,
+      #ffc401,
+      #6161e7,
+      #7c7cfa,
+      #7c7cfa
+    );
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .navbar__link {
+    color: white;
+    font-family: "Press Start 2P", "VT323", "Turret Road", "GapSansBold";
+    font-size: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+  }
+
+  .navbar__link:hover {
+    color: rgb(255, 196, 1);
+  }
+}

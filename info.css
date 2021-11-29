@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: GapSansBold;
+  src: url(./fonts/GapSansBold.ttf);
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    overflow: hidden;
+    height: 100%;
+    background: linear-gradient(170deg, #7c7cfa 80%, #ffc401) fixed;
+  }
+  .navbar {
+    margin: 1rem;
+  }
+  .navbar__link {
+    color: white;
+    font-family: "Press Start 2P", "Turret Road", "GapSansBold";
+    font-size: 1rem;
+    margin: 1.5rem;
+    text-decoration: none;
+  }
+
+  .navbar__link:hover {
+    background-color: #ffc401;
+  }
+
+  .main {
+    display: flex;
+  }
+  .info {
+    padding: 4rem 2rem 4rem 2rem;
+  }
+  .info__text {
+    color: white;
+    margin: 1.5rem;
+    font-family: "Space Mono", sans-serif;
+    width: 40rem;
+    text-align: center;
+  }
+  .info__cv {
+    margin: 8rem 1.5rem 1.5rem 1.5rem;
+    color: white;
+    font-family: "Space Mono", sans-serif;
+  }
+  .info__cv--link {
+    color: #ffc401;
+    font-family: "Space Mono", sans-serif;
+    font-weight: 700;
+  }
+  .image {
+    height: 20rem;
+    margin: 12rem 0 0 10rem;
+    padding: 2rem;
+  }
+  .socials {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+  }
+  #instagram,
+  #linkedin,
+  #github,
+  #email {
+    color: white;
+
+    padding: 1rem;
+    font-family: "Press Start 2P";
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  #instagram:hover,
+  #linkedin:hover,
+  #github:hover,
+  #email:hover {
+    text-transform: lowercase;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  body {
+    height: 100%;
+    background: linear-gradient(170deg, #7c7cfa 90%, #ffc401) fixed;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar__link {
+    color: white;
+    font-family: "Press Start 2P", "VT323", "Turret Road", "GapSansBold";
+    font-size: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+  }
+
+  .navbar__link:hover {
+    background-color: rgb(255, 196, 1);
+  }
+
+  .info__text {
+    color: white;
+    margin: 1.5rem;
+    font-family: "Space Mono", sans-serif;
+    width: 90%;
+    text-align: center;
+  }
+
+  .info__cv {
+    margin: 8rem 1.5rem 1.5rem 1.5rem;
+    color: white;
+    font-family: "Space Mono", sans-serif;
+  }
+  .info__cv--link {
+    color: #ffc401;
+    font-family: "Space Mono", sans-serif;
+    font-weight: 700;
+  }
+  .image {
+    justify-content: center;
+    height: 15rem;
+  }
+  .socials {
+    margin: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #instagram,
+  #linkedin,
+  #github,
+  #email {
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  #instagram:hover,
+  #linkedin:hover,
+  #github:hover,
+  #email:hover {
+    text-transform: lowercase;
+  }
+}
