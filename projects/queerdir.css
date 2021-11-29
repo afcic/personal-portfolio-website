@@ -163,7 +163,7 @@
     border: solid 1px #ffc401;
     border-radius: 6px;
     padding: 20px 20px 20px 10px;
-    width: 350px;
+    width: 300px;
     margin: 40px;
   }
   .role-title {
@@ -174,27 +174,27 @@
   }
 
   .qd-design-system {
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     border: #ffc401 solid;
     border-radius: 16px;
     margin: 20px;
   }
   .qd-image {
-    width: 420px;
+    width: 300px;
     border: #ffc401 solid;
     border-radius: 16px;
     margin: 20px;
   }
   .qd-logo {
-    width: 400px;
+    width: 300px;
     border: #ffc401 solid;
     border-radius: 16px;
     margin: 20px;
   }
   .qd-image-1 {
-    width: 420px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     border: #ffc401 solid;
     border-radius: 16px;
     margin: 20px;
