@@ -16,7 +16,7 @@
     background: linear-gradient(170deg, #7c7cfa 80%, #ffc401) fixed;
   }
   .navbar {
-    margin: 1rem;
+    margin: 2rem;
   }
   .navbar__link {
     color: white;
@@ -111,7 +111,6 @@
     margin: 1.5rem;
     font-family: "Space Mono", sans-serif;
     width: 90%;
-    text-align: center;
   }
 
   .info__cv {
